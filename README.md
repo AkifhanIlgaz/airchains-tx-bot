@@ -16,12 +16,17 @@ npm install -g npm@latest
 git clone https://github.com/AkifhanIlgaz/airchains-tx-bot.git
 cd airchains-tx-bot
 npm install
+```
 
-nano index.js
+> IP ve PRIV_KEY yazan yerleri değiştirelim. İsterseniz işlem aralığını değiştirebilirsiniz.
+> CTRL + X + Y + Enter ile çıkalım
 
+```console
+ nano index.js
+```
+
+
+```console
 screen -S airchain
 node index.js
 ```
-
-> IP ve PRIV_KEY yazan yerleri değiştirelim.
-> CTRL + X + Y + Enter ile çıkalım

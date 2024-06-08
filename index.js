@@ -5,7 +5,7 @@ const httpProvider = new Web3.providers.HttpProvider(RPC);
 const web3 = new Web3(httpProvider);
 
 const wallet = web3.eth.accounts.wallet.add(
-  'PRIV KEY'
+  '0x6e7dbc5c5eb5d2067613548019cee1192eccb5ea1a3cd7b3285edb8174e7d1cd'
 );
 let txCount = 0;
 
@@ -28,6 +28,7 @@ async function send() {
   }
 }
 
+// Süre saniye cinsindendir.
 function start(süre) {
   setInterval(() => {
     send();
