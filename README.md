@@ -15,6 +15,8 @@ git clone https://github.com/AkifhanIlgaz/mm-unit0.git
 
 ![image](https://github.com/AkifhanIlgaz/airchains-tx-bot/blob/main/images/m1.JPG)
 
+> Lütfen Metamask yüklü olmayan bir tarayıcı kullanın veya Chrome'da yeni bir profil oluşturun.
+
 > Tarayıcının URL kısmına aşağıdakini yazıyoruz ve sağ üstten geliştirici modunu aktif ediyoruz.
 
 ```
@@ -61,6 +63,6 @@ const airchains = () => {
       }, 7000);
     }, 10000);
   }
-  
+
  airchains()
 ```
