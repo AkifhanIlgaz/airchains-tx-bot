@@ -11,7 +11,7 @@ git clone https://github.com/AkifhanIlgaz/mm-unit0.git
 ```
 
 > Eğer bilgisayarınızda git yüklü değilse zip olarak da indirebilirsiniz.
-![image](https://github.com/ruesandora/Airchains/images/m1.jpg)
+![image](https://github.com/AkifhanIlgaz/airchains-tx-bot/blob/main/images/m1.JPG)
 
 
 #
