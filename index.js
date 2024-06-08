@@ -20,7 +20,7 @@ async function send() {
       value: amount,
     });
 
-    console.log(`${val} tEVMOS successfully transferred to ${to}`);
+    console.log(`${val} tEVMOS successfully transferred to ${to.address}`);
     console.log(`Transaction Count: ${++txCount}`);
   } catch (error) {
     console.error('An error occurred:', error);
