@@ -23,16 +23,20 @@ chrome://extensions
 
 > Yüklediğimiz klasörü tarayıcıya sürükleyip bırakıyoruz.
 
-> Yeni bir cüzdan oluşturuyoruz ve Rues'in Airchains reposunda eklediğimiz ağı buraya da ekliyoruz ve cüzdana token gönderiyoruz.
+> Yeni bir cüzdan oluşturuyoruz ve Rues'in Airchains reposunda eklediğimiz ağı buraya da ekliyoruz ve fee için cüzdana token gönderiyoruz.
 
-> F12 veya Sağ Tık + İncele ile konsolu açıyoruz.
+> Ayarlar > Kişiler ' e gidip bir tane cüzdan adresi ekliyoruz. (Yeni açtığınız Metamask'ı ekleyebilirsiniz.)
+
+> Sağ üstteki üç noktaya basıp daha sonra Görünümü Genişlet'e basıyoruz
+
+> Yeni açılan sekmede F12 veya Sağ Tık + İncele ile konsolu açıyoruz.
 
 > allow pasting yazıp enterliyoruz
 
 > Aşağıdaki kodu konsola yapıştırıyoruz
 
 ```console
- () => {
+const airchains = () => {
     setInterval(() => {
       setTimeout(() => {
         document
@@ -56,5 +60,7 @@ chrome://extensions
         document.querySelector('footer button:nth-child(2)').click();
       }, 7000);
     }, 10000);
-  }()
+  }
+  
+ airchains()
 ```
