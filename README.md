@@ -52,7 +52,7 @@ const airchains = () => {
             'div.send__select-recipient-wrapper__group div.send__select-recipient-wrapper__group-item'
           )
           .click();
-      }, 1000);
+      }, 2000);
 
       setTimeout(() => {
         document.querySelector('footer button:nth-child(2)').click();
