@@ -1,0 +1,16 @@
+{
+  "name": "airchains-tx-bot",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Airchains</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^4.9.0"
+  },
+  "type": "module"
+}
