@@ -1,13 +1,11 @@
 import { Web3 } from 'web3';
 
-const RPC = 'http://88.99.32.171:8545';
+const RPC = 'http://IP:8545';
 const httpProvider = new Web3.providers.HttpProvider(RPC);
 const web3 = new Web3(httpProvider);
 
 // PRIV_KEY 0x ile başlamalı
-const wallet = web3.eth.accounts.wallet.add(
-  '0x6e7dbc5c5eb5d2067613548019cee1192eccb5ea1a3cd7b3285edb8174e7d1cd'
-);
+const wallet = web3.eth.accounts.wallet.add('PRIV_KEY');
 let txCount = 0;
 
 async function send() {
